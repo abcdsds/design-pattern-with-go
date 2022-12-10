@@ -1,6 +1,8 @@
 package singleton
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestScreenConfig(t *testing.T) {
 	setUpScreenConfig(10, 10)
